@@ -1,0 +1,215 @@
+:root{
+    --clr-purple:#721B65;
+    --clr-maroon:#B80D57;
+    --clr-orange:#F8615A;
+    --clr-yellow:#FFD868;
+    --clr-white:#FBFBFF;
+}
+
+body{
+    background-color: #B80D5708;
+}
+
+.orange{
+    color: var(--clr-orange);
+}
+
+.maroon{
+    color: var(--clr-maroon);
+}
+
+.purple{
+    color: var(--clr-purple);
+}
+
+
+
+h1{
+    color:var(--clr-purple);
+    border-bottom: solid 1px var(--clr-maroon);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    color: var(--clr-maroon)
+}
+
+a.nav-link{
+    color:var(--clr-orange)
+}
+a.nav-link:hover{
+    color:var(--clr-maroon)
+}
+
+.text-maroon {
+    color: var(--clr-maroon)
+}
+
+/* Button Styles */
+.btn-maroon {
+    color: #B80D57;
+    background-color: #fff;
+    border-color: #B80D57;
+}
+
+.btn-maroon:hover {
+    color: #fff;
+    background-color: #B80D57;
+    border-color: #B80D57;
+}
+
+/* Card Styles */
+
+.card {
+    background-color:#B80D5708 ;
+}
+
+/* Skillcard css */
+
+.skillcard{
+    height: 150px;
+    transition: 0.5s;
+
+}
+.skillcard h5{
+    margin: auto;
+}
+
+.skillcard.html {
+    color: #ED6433;
+    border: solid 1px #ED6433;
+}
+
+.skillcard.html:hover {
+    background-color: #ED6433;
+    color: white;
+}
+
+
+.skillcard.css {
+    color: #1171B5;
+    border: solid 1px #1171B5;
+
+}
+.skillcard.css:hover {
+    background-color: #1171B5;
+    color: white;
+}
+
+.skillcard.javascript {
+    color: #D5BA32;
+    border: solid 1px #D5BA32;
+
+}
+.skillcard.javascript:hover {
+    background-color: #D5BA32;
+    color: white;
+}
+
+.skillcard.php {
+    color: #777BB3;
+    border: solid 1px #777BB3;
+
+}
+
+.skillcard.php:hover {
+    background-color:#777BB3;
+    color: white;
+}
+
+.skillcard.wordpress {
+    color: #007499;
+    border: solid 1px #007499;
+
+}
+
+.skillcard.wordpress:hover {
+    background-color: #007499;
+    color: white;
+}
+
+.skillcard.bootstrap {
+    color: #6C439F;
+    border: solid 1px #6C439F;
+
+}
+
+.skillcard.bootstrap:hover{
+    background-color: #6C439F;
+    color: white;
+}
+
+/* Project card fixed height */
+
+/* .project-card-top {
+     height: 15vw; 
+    object-fit: contain;
+} */
+
+.project-card-top {
+    height: 50vw; 
+    object-fit: cover;
+}
+
+
+  @media (min-width: 992px) { 
+    .project-card-top {
+        height: 15vw; 
+       object-fit: cover;
+    }
+
+   }
+
+/* Projects Sidebars */
+.projects-sidebar {
+    display: flex;
+}
+
+.projects-sidebar > nav{
+margin-left: auto;
+}
+
+.projects-sidebar-heading {
+    border-bottom: 1px solid var(--clr-maroon);
+}
+
+.projects-sidebar-heading a {
+    color:var(--clr-purple)
+}
+
+.abtme-section{
+    height: 250px;
+    margin-top: 20px;
+}
+
+.banner{
+    background-color: var(--clr-purple);
+    border-bottom: 10px solid var(--clr-maroon);
+    margin-bottom: 3rem;;
+}
+
+.banner-title{
+    color:white;
+    border-bottom: none!important;
+}
+/* .projects-card > .card > .card-img-top{
+    height: 50px;
+} */
+
+.btn-color{
+    background-color: var(--clr-maroon);
+    color:var(--clr-white);
+}
+
+.btn-color:hover{
+    color:var(--clr-white)
+}
+
+/* Side note style */
+
+.pink-sidenote{
+    border-left: 8px solid pink;
+    padding: 10px;
+    background-color: #b80d5714;
+}

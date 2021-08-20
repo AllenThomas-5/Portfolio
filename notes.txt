@@ -1,0 +1,32 @@
+    <!--HTML-->
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                    </div>
+                  </div>
+
+- Create a Json obects of projects and loop them using javascript
+- Align the Project cards in the main page
+- Change the color of the buttons
+- Create a footer
+- Create the Contact Section
+
+Stack Questions:
+How card Image has the same height
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+- About Me
+
+I am an ensthisatic web developer currently living in Ontario Mississauga.
+I am passionate about coding and have worked for various companies as wordpress developer for 3 years. 
+Learing new skills gets me driven and motivated and therfore the world of coding just offers me that oppurtunity as it is continuosuly evolving 
+Apart from coding I loving reading, nature walks and cooking.
+
+- Contact Me
+
+I do freelance web development projects you can email me at allenthomas.kl@outlook.com

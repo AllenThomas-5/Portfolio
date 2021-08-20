@@ -1,0 +1,23 @@
+[
+    {   "id":"1",
+        "projectTile":"0-Gravity",
+        "projectDescription":"The is a website for the club and restaurant Zero Gravity. This site is developed in wordpress. The site administrator of this website can add events and and albums to the gallery that is reflected on the front end side of the website.",
+        "projectLanguages":"Wordpress, HTML, CSS",
+        "link":"https://www.0-gravity.ae/"
+    },
+    {   "id":"2",
+        "projectTile":"Skydive Dubai",
+       "projectDescription":"I have been delegated to create new web pages and provide the content management features of the website via PHP. The news articles, announcements and images that are added at the backend admin panel of the website is reflected on the frontend by the site editor.",
+        "projectLanguages":"Wordpress, HTML, CSS",
+        "link":"https://www.skydivedubai.ae/"
+
+    },
+    {   "id":"3",
+        "projectTile":"Reprobitoech",
+       "projectDescription":"A company website representing the camel cloning biotechnology lab. This website is developed on the wordpress platform. The site is developed such that the administrator of the website could manage content such as news, gallery , the research publications ",
+        "projectLanguages":"Wordpress, HTML, CSS",
+        "link":" https://www.skydivedubai.ae/"
+
+    }
+]
+ 
