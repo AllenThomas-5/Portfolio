@@ -192,6 +192,8 @@ margin-left: auto;
 .banner-title{
     color:white;
     border-bottom: none!important;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 /* .projects-card > .card > .card-img-top{
     height: 50px;
